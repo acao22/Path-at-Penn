@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Path@Penn</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- font is poppins -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  </style>
+  <!-- icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="phone-frame">
+    <!-- title -->
+    <header class="app-header">
+      <img src="assets/image.png" alt="profile" class="profile-pic"/>
+      <h1>Path<span class="red">@</span>Penn</h1>
+      <i data-lucide="bell" class="icon"></i>
+    </header>
+
+    <!-- search -->
+    <div class="search-bar">
+      <i data-lucide="search" class="icon white"></i>
+      <span class="search-placeholder">Search for classes...</span>
+      <div class="divider"></div>
+      <i data-lucide="filter" class="icon white"></i>
+</div>
+
+
+    <!-- filters -->
+    <div class="filters">
+      <span class="filter-tag">AGH ✕</span>
+      <span class="filter-tag">Towne ✕</span>
+      <span class="filter-tag">CIS ✕</span>
+      <span class="filter-tag">Tuesdays ✕</span>
+    </div>
+
+    <!-- class found -->
+    <div class="results-header">
+      <p>25 CLASSES FOUND</p>
+      <a href="#">Filter by</a>
+    </div>
+
+    <!-- class card things -->
+    <div class="class-card">
+      <img src="assets/penn.jpeg" class="logo">
+      <div class="class-info">
+        <h2>CIS 1600</h2>
+        <p>Rajiv Gandhi</p>
+        <div class="tags">
+          <span class="rating">2.7 Rating</span>
+          <span class="location">AGH</span>
+        </div>
+        <p class="time">Tue Thur 12:30pm – 1:30pm</p>
+      </div>
+    </div>
+
+    <div class="class-card">
+      <img src="assets/penn.jpeg" class="logo">
+      <div class="class-info">
+        <h2>CIS 2400</h2>
+        <p>Benjamin Lee</p>
+        <div class="tags">
+          <span class="rating">3.8 Rating</span>
+          <span class="location">Towne</span>
+        </div>
+        <p class="time">Tue Thur 8:30am – 10:00am</p>
+      </div>
+    </div>
+
+    <div class="class-card">
+      <img src="assets/penn.jpeg" class="logo">
+      <div class="class-info">
+        <h2>CIS 4190</h2>
+        <p>Dinesh Jayaraman</p>
+        <div class="tags">
+          <span class="rating">3.5 Rating</span>
+        </div>
+        <p class="time">Tue Thur 1:45pm – 3:15pm</p>
+      </div>
+      <span class="status added"><i data-lucide="check"></i> Added</span>
+    </div>
+
+    <div class="class-card">
+      <img src="assets/penn.jpeg" class="logo">
+      <div class="class-info">
+        <h2>CIS 5120</h2>
+        <p>Andrew Head</p>
+        <div class="tags">
+          <span class="rating">4.0 Rating</span>
+          <span class="location">Skirkanich</span>
+        </div>
+        <p class="time">Tue Thur 1:45pm – 3:15pm</p>
+      </div>
+      <span class="status full"><i data-lucide="x"></i> Class is Full</span>
+    </div>
+
+    <!-- navbar -->
+    <nav class="bottom-nav">
+      <a href="#" class="active"><i data-lucide="home"></i></a>
+      <a href="#"><i data-lucide="user"></i></a>
+      <a href="#"><i data-lucide="star"></i></a>
+      <a href="#"><i data-lucide="box"></i></a>
+    </nav>
+  </div>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
